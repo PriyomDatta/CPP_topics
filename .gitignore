@@ -1,2 +1,6 @@
 # All executable should be ignored
 *.exe
+*.i
+*.ii
+*.s
+*.o
