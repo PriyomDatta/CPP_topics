@@ -1,42 +1,42 @@
 Sr.No	Exception & Description
-1	    std::exception
+1	std::exception
         An exception and parent class of all the standard C++ exceptions.
 
-2	    std::bad_alloc
+2	std::bad_alloc
         This can be thrown by new.
 
-3	    std::bad_cast
+3	std::bad_cast
         This can be thrown by dynamic_cast.
 
-4	    std::bad_exception
+4	std::bad_exception                                                              Need to re-check file_4.cpp
         This is useful device to handle unexpected exceptions in a C++ program.
 
-5	    std::bad_typeid
+5	std::bad_typeid                                                                 Need to re-check file_5.cpp
         This can be thrown by typeid.
 
-6	    std::logic_error
+6	std::logic_error                                                                Need to re-check file_6.cpp
         An exception that theoretically can be detected by reading the code.
 
-7	    std::domain_error
+7	std::domain_error                                                               Need to re-check file_7.cpp
         This is an exception thrown when a mathematically invalid domain is used.
 
-8	    std::invalid_argument
+8	std::invalid_argument                                                           Need to re-check file_8.cpp
         This is thrown due to invalid arguments.
 
-9	    std::length_error
+9	std::length_error                                                               Need to re-check file_9.cpp
         This is thrown when a too big std::string is created.
 
-10	    std::out_of_range
+10	std::out_of_range                                                               Need to re-check file_10.cpp
         This can be thrown by the 'at' method, for example a std::vector and std::bitset<>::operator[]().
 
-11	    std::runtime_error
+11	std::runtime_error                                                              Need to re-check file_11.cpp
         An exception that theoretically cannot be detected by reading the code.
 
-12	    std::overflow_error
+12	std::overflow_error                                                             Need to re-check file_12.cpp
         This is thrown if a mathematical overflow occurs.
 
-13	    std::range_error
+13	std::range_error                                                                Need to re-check file_13.cpp
         This is occurred when you try to store a value which is out of range.
 
-14	    std::underflow_error
+14	std::underflow_error                                                            Need to re-check file_14.cpp
         This is thrown if a mathematical underflow occurs.
