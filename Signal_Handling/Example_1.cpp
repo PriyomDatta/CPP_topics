@@ -26,7 +26,7 @@ int main () {
    while(++i) {
       cout << "Going to sleep...." << endl;
       if( i == 10 ) {
-         raise( SIGINT);
+         raise( SIGINT);   //Will not work use ctrl+c to create interrupt
       }
       else if(i==5){
          int* ptr = nullptr;
