@@ -6,9 +6,9 @@ using namespace std;
 
 void signalHandler( int signum ) {
    switch(signum){
-      case SIGSEGV: cout << "Caught SIGSEGV: Segmentation fault" << endl;
+      case SIGABRT: cout << "Caught SIGABRT: Abnormal termination !!!" << endl;
                      break;
-      case SIGINT : cout << "Caught SIGINT: interrupt signal" << endl; 
+      case SIGINT : cout << "Caught SIGINT: interrupt signal !!!" << endl; 
                      break;
       default : cout << "Some other thing happened";
    }
@@ -21,7 +21,7 @@ int main () {
    int i = 0;
    // register signal SIGINT and signal handler  
    signal(SIGINT, signalHandler);
-   signal(SIGSEGV, signalHandler);
+   signal(SIGABRT, signalHandler);
 
    while(++i) {
       cout << "Going to sleep...." << endl;
@@ -29,10 +29,8 @@ int main () {
          raise( SIGINT);   //Will not work use ctrl+c to create interrupt
       }
       else if(i==5){
-         int* ptr = nullptr;
-         cout << ptr << endl;
-         cout << *ptr;
-         i++;
+        cout << "Program will abort using abort function()..." << endl;
+        abort();
       }
       sleep(1);
    }
