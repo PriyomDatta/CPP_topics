@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the target directories
-TARGET_DIRS=("Exception_Handling" "Special_Case")
+TARGET_DIRS=("Exception_Handling" "Special_Case" "Threads" "Signal_Handling")
 
 # Loop through each directory
 for DIR in "${TARGET_DIRS[@]}"; do

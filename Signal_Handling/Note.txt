@@ -1,0 +1,40 @@
+Sr.No	Signal & Description
+1	SIGABRT
+        Abnormal termination of the program, such as a call to abort.
+
+2	SIGFPE
+        An erroneous arithmetic operation, such as a divide by zero or an operation resulting in overflow.
+
+3	SIGILL
+        Detection of an illegal instruction.
+
+4	SIGINT
+        Receipt of an interactive attention signal.
+
+5	SIGSEGV
+        An invalid access to storage.
+
+6	SIGTERM
+        A termination request sent to the program.
+
+7       SIGBUS	
+        Bus error (e.g., misaligned memory access)
+        
+8       SIGQUIT	
+        Quit from keyboard (Ctrl+)
+        
+9       SIGHUP	
+        Hangup detected on controlling terminal or death of controlling process
+        
+10      SIGPIPE	
+        Write to a pipe with no readers
+        
+11      SIGALRM	
+        Timer signal from alarm()
+        
+12      SIGUSR1	
+        User-defined signal 1
+        
+13      SIGUSR2	
+        User-defined signal 2
+        
